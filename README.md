@@ -2,6 +2,13 @@
 
 This is a [React hook](https://reactjs.org/docs/hooks-overview.html) to use the [FileReader](https://developer.mozilla.org/en-US/docs/Web/API/FileReader) api.
 
+## Install
+
+```
+npm install react-use-file-reader
+yarn add react-use-file-reader
+```
+
 ## Usage
 
 ```javascript
