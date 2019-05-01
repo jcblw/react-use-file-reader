@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react'
 
+const noop = () => {}
+
 export const useFileReader = options => {
-  const { method = 'readAsText', onloadHook } = options
+  const { method = 'readAsText', onload: onloadHook = noop } = options
   const [file, setFile] = useState(null)
   const [error, setError] = useState(null)
   const [result, setResult] = useState(null)
