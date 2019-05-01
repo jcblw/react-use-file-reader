@@ -1,0 +1,46 @@
+{
+  "name": "react-use-file-reader",
+  "version": "1.0.0",
+  "description": "A react hook for the file reader api",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcblw/react-use-file-reader.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "FileReader"
+  ],
+  "author": "Jacob Lowe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcblw/react-use-file-reader/issues"
+  },
+  "homepage": "https://github.com/jcblw/react-use-file-reader#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-import-order-alphabetical": "^0.0.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.7.0",
+    "prettier": "^1.16.4",
+    "react": "16.8.0",
+    "react-dom": "16.8.0"
+  },
+  "peerDependencies": {
+    "react": ">= 16.8.0",
+    "react-dom": ">= 16.8.0"
+  },
+  "scripts": {
+    "build": "rm -rf dist && babel src --out-dir dist",
+    "fmt": "prettier \"**/*.{js,md,html}\" --write",
+    "test": "nyc ava"
+  }
+}
