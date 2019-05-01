@@ -1,8 +1,8 @@
-## Use File Reader
+# Use File Reader
 
 This is a [React hook](https://reactjs.org/docs/hooks-overview.html) to use the [FileReader](https://developer.mozilla.org/en-US/docs/Web/API/FileReader) api.
 
-# Usage
+## Usage
 
 ```javascript
 import React from 'react'
