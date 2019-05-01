@@ -5,6 +5,9 @@ This is a [React hook](https://reactjs.org/docs/hooks-overview.html) to use the 
 # Usage
 
 ```javascript
+import React from 'react'
+import { useFileReader } from 'react-use-file-reader'
+
 export const MyComponent = prop => {
   const [{ result, error, loading }, setFile] = useFileReader({
     method: 'readAsDataURL',
